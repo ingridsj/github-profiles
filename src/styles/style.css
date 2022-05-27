@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+.wrapper {
+  background: #292C34;
+  height: 100vh;
+}
+
+.wrapper header {
+  max-width: 850px;
+  height: 100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.wrapper header h1 {
+  font-family: 'Bitter', serif;
+  color: white;
+}
+
+.wrapper input {
+  border: 1px solid #f8b73ee5;
+  outline: none;
+
+  height: 38px;
+  width: 250px;
+  padding: 8px;
+
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+
+.wrapper button {
+  cursor: pointer;
+
+  height: 38px;
+  width: 58px;
+
+  border: 1px solid #f8b73ee5;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #f8b73ee5;
+  color: white;
+}
+
+.flex-info {
+  margin: 0 auto;
+  background: #171D22;
+  max-width: 850px;
+  height: 300px;
+  border-radius: 20px;
+
+  padding: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: white;
+}
+
+.content aside{
+  padding-left: 16px;
+}
+
+.flex-info img {
+  width: 220px;
+  height: 220px;
+
+  border-radius: 8px;
+}
+
+.user-description h1 {
+  margin-bottom: 16px;
+}
+
+.user-description .quantity{
+  display: flex;
+}
+.user-description .quantity p{
+  margin-right: 8px;
+}
+
+.user-repo-info {
+  margin-top: 16px;
+}
+
+.user-repo-info ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-repo-info li {
+  list-style: none;
+}
+
+.user-repo-info a {
+  padding: 8px;
+  border: 1px solid white;
+  text-decoration: none;
+
+  color: white;
+
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.user-repo-info a:hover {
+  opacity: 0.9;
+  background: #f8b73ee5;
+}
